@@ -1,0 +1,18 @@
+# Backend
+email/target/
+
+# Frontend
+MailMate-Frontend/node_modules/
+MailMate-Frontend/dist/
+
+# Environment Variables
+**/.env
+**/.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
