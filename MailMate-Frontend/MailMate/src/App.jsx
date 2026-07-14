@@ -234,9 +234,31 @@ function App() {
             </Paper>
           )}
 
-          <Typography variant="caption" color="text.secondary" sx={{ display: 'block', mt: 4, textAlign: 'center' }}>
-            Crafted with MailMate
-          </Typography>
+          {/* Footer */}
+<Box
+  component="footer"
+  sx={{
+    mt: 6,
+    py: 3,
+    textAlign: 'center',
+    borderTop: '1px solid rgba(15,23,42,.08)',
+  }}
+>
+  <Typography
+    variant="body2"
+    color="text.secondary"
+    sx={{ mb: 0.5 }}
+  >
+    © {new Date().getFullYear()} MailMate. All Rights Reserved.
+  </Typography>
+
+  <Typography
+    variant="body2"
+    color="text.secondary"
+  >
+    AI-Powered Email Assistant | Designed & Developed by Panth Patel
+  </Typography>
+</Box>
         </Container>
 
         <Snackbar
